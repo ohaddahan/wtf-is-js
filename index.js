@@ -10,7 +10,7 @@ const errorsLookUp = {
 
 function findError(hexString) {
     let outputs = []
-    let code = praseInt(hexString.replace(/^0x/, "").toUpperCase(), 16);
+    let code = parseInt(hexString.replace(/^0x/, "").toUpperCase(), 16);
 
     for (let name in errorsLookUp) {
         let lookup = errorsLookUp[name];
