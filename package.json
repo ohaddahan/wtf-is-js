@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "wtf-is-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "wtf-is-js solana ecosystem errors",
   "main": "index.js",
   "scripts": {
